@@ -1,0 +1,23 @@
+{
+  "name": "basecamp",
+  "version": "1.0.0",
+  "description": "Base Camp smart contracts deployment",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "deploy": "npx hardhat clean && npx hardhat compile && npx hardhat run scripts/deploy.js --network baseSepolia",
+    "verify": "npx hardhat run scripts/verify.js --network baseSepolia",
+    "full": "npm run deploy && sleep 10 && npm run verify",
+    "addresses": "cat deployments/baseSepolia.json",
+    "clean": "npx hardhat clean && rm -rf deployments/*"
+  },
+  "keywords": ["base", "basecamp", "solidity", "hardhat"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
