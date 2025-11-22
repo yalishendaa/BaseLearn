@@ -25,7 +25,7 @@ if [ ! -f .env ]; then
 fi
 
 echo -e "${BLUE}📦 Step 1: Installing dependencies...${NC}"
-npm install --silent
+npm install
 if [ $? -ne 0 ]; then
     echo -e "${RED}❌ Installation failed!${NC}"
     exit 1
@@ -33,8 +33,14 @@ fi
 echo -e "${GREEN}✅ Dependencies installed${NC}"
 echo ""
 
+# Verify dotenv is installed
+if [ ! -d "node_modules/dotenv" ]; then
+    echo -e "${YELLOW}⚠️  Installing dotenv...${NC}"
+    npm install dotenv
+fi
+
 echo -e "${BLUE}🧹 Step 2: Cleaning artifacts...${NC}"
-npx hardhat clean
+npx hardhat clean 2>/dev/null || echo "Nothing to clean"
 echo -e "${GREEN}✅ Cleaned${NC}"
 echo ""
 

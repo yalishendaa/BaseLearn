@@ -10,7 +10,12 @@
     "addresses": "cat deployments/baseSepolia.json",
     "clean": "npx hardhat clean && rm -rf deployments/*"
   },
-  "keywords": ["base", "basecamp", "solidity", "hardhat"],
+  "keywords": [
+    "base",
+    "basecamp",
+    "solidity",
+    "hardhat"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -18,6 +23,7 @@
     "hardhat": "^2.22.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.0"
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^17.2.3"
   }
 }
