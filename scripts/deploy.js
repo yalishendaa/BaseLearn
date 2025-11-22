@@ -45,11 +45,11 @@ async function main() {
   // 3. EmployeeStorage
   console.log("[3/15] Deploying EmployeeStorage...");
   const EmployeeStorage = await hre.ethers.getContractFactory("EmployeeStorage");
-  const employeeStorage = await EmployeeStorage.deploy(1000, "Pat", 50000, 112358);
+  const employeeStorage = await EmployeeStorage.deploy(1000, "Pat", 50000, 112358132134);
   await employeeStorage.waitForDeployment();
   deployments.EmployeeStorage = { 
     address: await employeeStorage.getAddress(), 
-    args: [1000, "Pat", 50000, 112358],
+    args: [1000, "Pat", 50000, 112358132134],
     contract: "contracts/03_EmployeeStorage.sol:EmployeeStorage"
   };
   console.log(`✅ ${deployments.EmployeeStorage.address}\n`);
