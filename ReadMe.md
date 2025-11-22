@@ -98,20 +98,19 @@ Use these contract names and addresses when submitting to:
 
 [https://docs.base.org/learn/](https://docs.base.org/learn/)
 
-1. Basic Math → `BasicMath`
-2. Deploying to Testnet → `BasicMath`
-3. Control Structures → `ControlStructures`
-4. Storage → `EmployeeStorage`
-5. Arrays → `ArraysExercise`
-6. Mappings → `FavoriteRecords`
-7. Structs → `GarageManager`
-8. Inheritance → `InheritanceSubmission`
-9. Imports → `ImportsExercise`
-10. Errors → `ErrorTriageExercise`
-11. The New Keyword → `AddressBookFactory`
-12. Minimal Token → `UnburnableToken`
-13. ERC-20 → `WeightedVoting`
-14. ERC-721 → `HaikuNFT`
+1. Deploying to Testnet → `BasicMath` https://docs.base.org/learn/deployment-to-testnet/deployment-to-testnet-exercise
+2. Control Structures → `ControlStructures` https://docs.base.org/learn/control-structures/control-structures-exercise
+3. Storage → `EmployeeStorage` https://docs.base.org/learn/storage/storage-exercise
+4. Arrays → `ArraysExercise` https://docs.base.org/learn/arrays/arrays-exercise
+5. Mappings → `FavoriteRecords` https://docs.base.org/learn/mappings/mappings-exercise
+6. Structs → `GarageManager` https://docs.base.org/learn/structs/structs-exercise
+7. Inheritance → `InheritanceSubmission` https://docs.base.org/learn/inheritance/inheritance-exercise
+8. Imports → `ImportsExercise` https://docs.base.org/learn/imports/imports-exercise
+9. Errors → `ErrorTriageExercise` https://docs.base.org/learn/error-triage/error-triage-exercise
+10. The New Keyword → `AddressBookFactory` https://docs.base.org/learn/new-keyword/new-keyword-exercise
+11. Minimal Token → `UnburnableToken` https://docs.base.org/learn/token-development/minimal-tokens/minimal-tokens-exercise
+12. ERC-20 → `WeightedVoting` https://docs.base.org/learn/token-development/erc-20-token/erc-20-exercise
+13. ERC-721 → `HaikuNFT` https://docs.base.org/learn/token-development/erc-721-token/erc-721-exercise
 
 View all deployed addresses:
 
